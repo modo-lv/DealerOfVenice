@@ -5,4 +5,11 @@ html
 		script(src="vendor/angularjs/angular-route.min.js")
 
 		script(src="index.js")
-	body
+	body(data-ng-app="dealer")
+		h1 Dealer of Venice
+		h2 v0.0.1
+
+		table#PlayerStats.horizontal(data-ng-controller="playerController")
+			tr
+				th Money:
+				td {{money}} &euro;

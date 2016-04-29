@@ -3,6 +3,7 @@ gulp = require \gulp
 mocha = require \gulp-mocha
 livescript = require \gulp-livescript
 
+# Phase 0 is for unit testing and any other pre-compilation tasks
 module?.exports = class GulpPhase
 
 	(@$cfg) ->
